@@ -8,7 +8,7 @@ import Navigation from './Navigation'
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_IRL}>
         <div className="app">
           <header>
             {<Header/>}
